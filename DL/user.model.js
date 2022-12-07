@@ -1,5 +1,3 @@
-// // לבצע התחברות ל-DB
-// require('./db').connect()
 
 // להגדיר את מבנה הטבלה והשדות
 const mongoose = require('mongoose');

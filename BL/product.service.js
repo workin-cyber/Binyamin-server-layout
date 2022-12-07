@@ -52,7 +52,7 @@ async function productIsExists(id) {
 }
 
 
-
+module.exports={createNewProduct}
 
 let product = {
     id: 2,
@@ -64,4 +64,4 @@ let product = {
     inStock: 10
 }
 
-init();
+// init();
