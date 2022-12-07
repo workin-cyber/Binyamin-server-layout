@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const MONGO_URL = 'YOUR MONGO URL'
+const MONGO_URL = 'mongodb+srv://admin:admin@cluster0.3ufjyfg.mongodb.net/server?retryWrites=true&w=majority'
 
 async function connect() {
     try {
