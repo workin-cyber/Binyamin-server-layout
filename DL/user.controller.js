@@ -3,11 +3,11 @@ const userData = require('./user.model')
 async function create(data) {
     return await userData.create(data)
 }
-async function read(filter) {
-    return await userData.find(filter)
+async function read(filter,proj) {
+    return await userData.find(filter,proj)
 }
-async function readOne(filter) {
-    let res = await read(filter)
+async function readOne(filter,proj) {
+    let res = await read(filter,proj)
     return res[0]
 }
 async function update(id, newData) {
